@@ -16,15 +16,14 @@ The goals / steps of this project are the following:
 [image1]: ./camera_cal/calibration1.jpg "./output_images/calibration1.jpg"
 [image2]: ./output_images/calibration1_undistortion.jpg "./output_images/calibration1_undistortion.jpg"
 [image3]: ./test_images/test1.jpg "./test_images/test1.jpg"
-[image4]: ./output_images/test1_undist.jpg "./output_images/test1_undist.jpg"
-[image5]: ./output_images/test1_b_ch.jpg "./output_images/test1_b_ch.jpg"
-[image6]: ./output_images/test1_l_ch.jpg "./output_images/test1_l_ch.jpg"
-[image7]: ./output_images/test1_thresh.jpg "./output_images/test1_thresh.jpg"
-[image8]: ./output_images/test1_persp.jpg "./output_images/test1_persp.jpg"
-[image9]: ./output_images/test1_window.jpg "./output_images/test1_window.jpg"
-[image10]: ./output_images/test1_lane.jpg "./output_images/test1_lane.jpg"
-[image11]: ./output_images/test1_caption.jpg "./output_images/test1_caption.jpg"
-[video1]: ./project_video.mp4 "Video"
+[image4]: ./output_images/test2_undist.jpg "./output_images/test2_undist.jpg"
+[image5]: ./output_images/test2_b_ch.jpg "./output_images/test2_b_ch.jpg"
+[image6]: ./output_images/test2_l_ch.jpg "./output_images/test2_l_ch.jpg"
+[image7]: ./output_images/test2_thresh.jpg "./output_images/test2_thresh.jpg"
+[image8]: ./output_images/test2_persp.jpg "./output_images/test2_persp.jpg"
+[image9]: ./output_images/test2_window.jpg "./output_images/test2_window.jpg"
+[image10]: ./output_images/test2_lane.jpg "./output_images/test2_lane.jpg"
+[image11]: ./output_images/test2_caption.jpg "./output_images/test2_caption.jpg"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -129,7 +128,7 @@ I implemented this step in the function `draw_lane()` and `caption()`.  Here is 
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video_output.mp4)
+Here's a [link to my video result](https://youtu.be/_1Nmdvp9Ysw)
 
 ---
 
@@ -139,6 +138,6 @@ Here's a [link to my video result](./project_video_output.mp4)
 
 Although I successfully detected the lane of the `project_video.mp4`. But when I apply my pipeline to `challenge_video.mp4` or `harder_challenge_video.mp4`, it can't detect normally. Below are some portions I may need to improve.
 
-* when Changing lanes
+* when Changing lanes or due to some lighting conditions, this may not work.
 * If the lane have some lane like shadow or cavity, it may affect my lane detection. I need to improve lane detection algorithm.
 * If the curvature is too large, my lane detection algorithm may fail to detect lane with the background. I may need to increase the degree of polynomial. 
