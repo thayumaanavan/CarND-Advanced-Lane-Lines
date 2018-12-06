@@ -140,4 +140,4 @@ Although I successfully detected the lane of the `project_video.mp4`. But when I
 
 * when Changing lanes or due to some lighting conditions, this may not work.
 * If the lane have some lane like shadow or cavity, it may affect my lane detection. I need to improve lane detection algorithm.
-* If the curvature is too large, my lane detection algorithm may fail to detect lane with the background. I may need to increase the degree of polynomial. 
+* If the curvature is too large, my lane detection algorithm may fail to detect lane with the background. This may be fixed using deep learning techniques which I will be learning in the upcoming lessons.
