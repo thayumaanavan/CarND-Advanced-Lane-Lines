@@ -22,8 +22,7 @@ The goals / steps of this project are the following:
 [image7]: ./output_images/test2_thresh.jpg "./output_images/test2_thresh.jpg"
 [image8]: ./output_images/test2_persp.jpg "./output_images/test2_persp.jpg"
 [image9]: ./output_images/test2_window.jpg "./output_images/test2_window.jpg"
-[image10]: ./output_images/test2_lane.jpg "./output_images/test2_lane.jpg"
-[image11]: ./output_images/test2_caption.jpg "./output_images/test2_caption.jpg"
+[image10]: ./output_images/test2_caption.jpg "./output_images/test2_caption.jpg"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -128,7 +127,7 @@ I implemented this step in the function `draw_lane()` and `caption()`.  Here is 
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](https://youtu.be/_1Nmdvp9Ysw)
+Here's a [link to my video result](https://youtu.be/Grod-uoh52U)
 
 ---
 
